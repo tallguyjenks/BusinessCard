@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
-# https://tinyurl.com/create.php?source=create&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmichaeltd%2Fdots%2Fmaster%2Fdot.files%2Fbin%2Fmichaeltd.bash&alias=mtd-card
+# Bitly = https://raw.githubusercontent.com/tallguyjenks/BusinessCard/master/business_card
+#
 # Write a nice business card on the terminal.
 # ╭───────────────────────────────────────────────────────╮
 # │                                                       │
@@ -26,7 +27,7 @@ l[2]="    ${cyan}│                                                       │"
 l[3]="    ${cyan}│${reset}           ${bold}${cyan}Bryan Jenks / TallGuyJenks${reset}                  ${cyan}│"
 l[4]="    ${cyan}│                                                       │"
 l[5]="    ${cyan}│${reset}     ${underline}${bold}Email:${reset}  ${magenta}bryanjenks@protonmail.com                 ${cyan}│"
-l[6]="    ${cyan}│${reset}       ${underline}${bold}Web:${reset}  ${dim}https://www.${reset}${cyan}bryanjenks.xyz                |"
+l[6]="    ${cyan}│${reset}       ${underline}${bold}Web:${reset}  ${dim}https://www.${reset}${cyan}bryanjenks.xyz                ${cyan}|"
 l[7]="    ${cyan}│                                                       │"
 l[8]="    ${cyan}│${reset}   ${underline}${bold}Twitter:${reset}  ${dim}https://twitter.com/${reset}${blue}Tall_Viking           ${cyan}│"
 l[9]="    ${cyan}│${reset}    ${underline}${bold}GitHub:${reset}  ${dim}https://github.com/${reset}${green}tallguyjenks           ${cyan}│"
@@ -35,7 +36,7 @@ l[11]="    ${cyan}│${reset}   ${underline}${bold}YouTube:${reset}  ${dim}https
 l[12]="    ${cyan}│${reset}    ${underline}${bold}OrchID:${reset}  ${dim}https://orcid.org/${reset}${green}0000-0002-9604-3069     ${cyan}│"
 l[13]="    ${cyan}│${reset}   ${underline}${bold}Patreon:${reset}  ${dim}https://www.patreon.com/${reset}${yellow}bryanjenks        ${cyan}│"
 l[14]="    ${cyan}│                                                       │"
-l[15]="    ${cyan}│${reset}      ${underline}${bold}Card:${reset}  ${yellow}curl -sL https://  ${cyan}│"
+l[15]="    ${cyan}│${reset}      ${underline}${bold}Card:${reset}  ${yellow}curl -sL https://bit.ly/2zvxUbd | sh      ${cyan}│"
 l[16]="    ${cyan}│                                                       │"
 l[17]="    ${cyan}╰───────────────────────────────────────────────────────╯"
 
