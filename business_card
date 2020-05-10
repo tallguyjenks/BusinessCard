@@ -47,27 +47,23 @@ cyan="$(tput setaf 6)"
 #bg_white="$(tput setab 7)"
 #bg_default="$(tput setab 9)"
 
-l[1]="    ${cyan}╭───────────────────────────────────────────────────────╮"
-l[2]="    ${cyan}│                                                       │"
-l[3]="    ${cyan}│${reset}           ${bold}${cyan}Bryan Jenks / TallGuyJenks${reset}                  ${cyan}│"
-l[4]="    ${cyan}│                                                       │"
-l[5]="    ${cyan}│${reset}     ${underline}${bold}Email:${reset}  ${magenta}bryanjenks@protonmail.com                 ${cyan}│"
-l[6]="    ${cyan}│${reset}       ${underline}${bold}Web:${reset}  ${dim}https://www.${reset}${cyan}bryanjenks.xyz                ${cyan}|"
-l[7]="    ${cyan}│                                                       │"
-l[8]="    ${cyan}│${reset}   ${underline}${bold}Twitter:${reset}  ${dim}https://twitter.com/${reset}${blue}Tall_Viking           ${cyan}│"
-l[9]="    ${cyan}│${reset}    ${underline}${bold}GitHub:${reset}  ${dim}https://github.com/${reset}${green}tallguyjenks           ${cyan}│"
-l[10]="    ${cyan}│${reset}  ${underline}${bold}LinkedIn:${reset}  ${dim}https://linkedin.com/in/${reset}${blue}bryanjenks        ${cyan}│"
-l[11]="    ${cyan}│${reset}   ${underline}${bold}YouTube:${reset}  ${dim}https://www.youtube.com/c/${reset}${red}BryanJenksTech  ${cyan}│"
-l[12]="    ${cyan}│${reset}    ${underline}${bold}OrchID:${reset}  ${dim}https://orcid.org/${reset}${green}0000-0002-9604-3069     ${cyan}│"
-l[13]="    ${cyan}│${reset}   ${underline}${bold}Patreon:${reset}  ${dim}https://www.patreon.com/${reset}${yellow}bryanjenks        ${cyan}│"
-l[14]="    ${cyan}│                                                       │"
-l[15]="    ${cyan}│${reset}      ${underline}${bold}Card:${reset}  ${yellow}curl -sL https://bit.ly/2zvxUbd | sh      ${cyan}│"
-l[16]="    ${cyan}│                                                       │"
-l[17]="    ${cyan}╰───────────────────────────────────────────────────────╯"
-
-echo
-for i in {1..17}; do
-    echo "${l[i]}"
-done
-echo
+cat <<EOF
+${cyan}╭───────────────────────────────────────────────────────╮
+${cyan}│                                                       │
+${cyan}│${reset}           ${bold}${cyan}Bryan Jenks / TallGuyJenks${reset}                  ${cyan}│
+${cyan}│                                                       │
+${cyan}│${reset}     ${underline}${bold}Email:${reset}  ${magenta}bryanjenks@protonmail.com                 ${cyan}│
+${cyan}│${reset}       ${underline}${bold}Web:${reset}  ${dim}https://www.${reset}${cyan}bryanjenks.xyz                ${cyan}|
+${cyan}│                                                       │
+${cyan}│${reset}   ${underline}${bold}Twitter:${reset}  ${dim}https://twitter.com/${reset}${blue}Tall_Viking           ${cyan}│
+${cyan}│${reset}    ${underline}${bold}GitHub:${reset}  ${dim}https://github.com/${reset}${green}tallguyjenks           ${cyan}│
+${cyan}│${reset}  ${underline}${bold}LinkedIn:${reset}  ${dim}https://linkedin.com/in/${reset}${blue}bryanjenks        ${cyan}│
+${cyan}│${reset}   ${underline}${bold}YouTube:${reset}  ${dim}https://www.youtube.com/c/${reset}${red}BryanJenksTech  ${cyan}│
+${cyan}│${reset}    ${underline}${bold}OrchID:${reset}  ${dim}https://orcid.org/${reset}${green}0000-0002-9604-3069     ${cyan}│
+${cyan}│${reset}   ${underline}${bold}Patreon:${reset}  ${dim}https://www.patreon.com/${reset}${yellow}bryanjenks        ${cyan}│
+${cyan}│                                                       │
+${cyan}│${reset}      ${underline}${bold}Card:${reset}  ${yellow}curl -sL bit.ly/2zvxUbd | sh              ${cyan}│
+${cyan}│                                                       │
+${cyan}╰───────────────────────────────────────────────────────╯
+EOF
 
