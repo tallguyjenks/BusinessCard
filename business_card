@@ -48,6 +48,7 @@ cyan="$(tput setaf 6)"
 #bg_default="$(tput setab 9)"
 
 cat <<EOF
+
 ${cyan}╭───────────────────────────────────────────────────────╮
 ${cyan}│                                                       │
 ${cyan}│${reset}           ${bold}${cyan}Bryan Jenks / TallGuyJenks${reset}                  ${cyan}│
@@ -65,5 +66,6 @@ ${cyan}│                                                       │
 ${cyan}│${reset}      ${underline}${bold}Card:${reset}  ${yellow}curl -sL bit.ly/2zvxUbd | sh              ${cyan}│
 ${cyan}│                                                       │
 ${cyan}╰───────────────────────────────────────────────────────╯
+
 EOF
 
