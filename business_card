@@ -1,53 +1,17 @@
-#!/usr/bin/env bash
-#
-# Bitly = https://raw.githubusercontent.com/tallguyjenks/BusinessCard/master/business_card
-#
-# Write a nice business card on the terminal.
-# ╭───────────────────────────────────────────────────────╮
-# │                                                       │
-# │           Michael Tsouchlarakis / michaeltd           │
-# │                                                       │
-# │      Work:  tsouchlarakis@gmail.com                   │
-# │      FOSS:  Gentoo Linux avocado.                     │
-# │                                                       │
-# │   Twitter:  https://twitter.com/tsouchlarakismd       │
-# │       npm:  https://npmjs.com/~michaeltd              │
-# │    GitHub:  https://github.com/michaeltd              │
-# │  LinkedIn:  https://linkedin.com/in/michaeltd         │
-# │       Web:  https://michaeltd.netlify.com/            │
-# │                                                       │
-# │      Card:  curl -sL https://tinyurl.com/mtd-card|sh  │
-# │                                                       │
-# ╰───────────────────────────────────────────────────────╯
-# Font attributes, colors, bg colors
-reset='\e[0m'
-bold='\e[1m'
-dim='\e[2m'
-underline='\e[4m'
-red='\e[0;31m'
-green='\e[0;32m'
-yellow='\e[0;33m'
-blue='\e[0;34m'
-magenta='\e[0;35m'
-cyan='\e[0;36m'
-
-echo -e "\n
-${cyan}╭───────────────────────────────────────────────────────╮
-${cyan}│                                                       │
-${cyan}│${reset}           ${cyan}${bold}Bryan Jenks / TallGuyJenks${reset}                  ${cyan}│
-${cyan}│                                                       │
-${cyan}│${reset}     ${underline}${bold}Email:${reset}  ${magenta}bryanjenks@protonmail.com${reset}                 ${cyan}│
-${cyan}│${reset}       ${underline}${bold}Web:${reset}  ${dim}https://www.${reset}${cyan}bryanjenks.xyz                ${cyan}│
-${cyan}│                                                       │
-${cyan}│${reset}   ${underline}${bold}Twitter:${reset}  ${dim}https://twitter.com/${reset}${blue}Tall_Viking           ${cyan}│
-${cyan}│${reset}    ${underline}${bold}GitHub:${reset}  ${dim}https://github.com/${reset}${green}tallguyjenks           ${cyan}│
-${cyan}│${reset}  ${underline}${bold}LinkedIn:${reset}  ${dim}https://linkedin.com/in/${reset}${blue}bryanjenks        ${cyan}│
-${cyan}│${reset}   ${underline}${bold}YouTube:${reset}  ${dim}https://www.youtube.com/c/${reset}${red}BryanJenksTech  ${cyan}│
-${cyan}│${reset}    ${underline}${bold}OrchID:${reset}  ${dim}https://orcid.org/${reset}${green}0000-0002-9604-3069     ${cyan}│
-${cyan}│${reset}   ${underline}${bold}Patreon:${reset}  ${dim}https://www.patreon.com/${reset}${yellow}bryanjenks        ${cyan}│
-${cyan}│                                                       │
-${cyan}│${reset}      ${underline}${bold}Card:${reset}  ${yellow}curl -sL bit.ly/2zvxUbd                   ${cyan}│
-${cyan}│                                                       │
-${cyan}╰───────────────────────────────────────────────────────╯
-
-"
+\e[0;36m╭───────────────────────────────────────────────────────╮
+\e[0;36m│                                                       │
+\e[0;36m│\e[0m           \e[0;36m\e[1mBryan Jenks / TallGuyJenks\e[0m                  \e[0;36m│
+\e[0;36m│                                                       │
+\e[0;36m│\e[0m     \e[4m\e[1mEmail:\e[0m  \e[0;35mbryanjenks@protonmail.com\e[0m                 \e[0;36m│
+\e[0;36m│\e[0m       \e[4m\e[1mWeb:\e[0m  \e[2mhttps://www.\e[0m\e[0;36mbryanjenks.xyz                \e[0;36m│
+\e[0;36m│                                                       │
+\e[0;36m│\e[0m   \e[4m\e[1mTwitter:\e[0m  \e[2mhttps://twitter.com/\e[0m\e[0;34mTall_Viking           \e[0;36m│
+\e[0;36m│\e[0m    \e[4m\e[1mGitHub:\e[0m  \e[2mhttps://github.com/\e[0m\e[0;32mtallguyjenks           \e[0;36m│
+\e[0;36m│\e[0m  \e[4m\e[1mLinkedIn:\e[0m  \e[2mhttps://linkedin.com/in/\e[0m\e[0;34mbryanjenks        \e[0;36m│
+\e[0;36m│\e[0m   \e[4m\e[1mYouTube:\e[0m  \e[2mhttps://www.youtube.com/c/\e[0m\e[0;31mBryanJenksTech  \e[0;36m│
+\e[0;36m│\e[0m    \e[4m\e[1mOrchID:\e[0m  \e[2mhttps://orcid.org/\e[0m\e[0;32m0000-0002-9604-3069     \e[0;36m│
+\e[0;36m│\e[0m   \e[4m\e[1mPatreon:\e[0m  \e[2mhttps://www.patreon.com/\e[0m\e[0;33mbryanjenks        \e[0;36m│
+\e[0;36m│                                                       │
+\e[0;36m│\e[0m      \e[4m\e[1mCard:\e[0m  \e[0;33mcurl -sL bit.ly/2zvxUbd                   \e[0;36m│
+\e[0;36m│                                                       │
+\e[0;36m╰───────────────────────────────────────────────────────╯
