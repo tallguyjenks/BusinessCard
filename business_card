@@ -1,9 +1,6 @@
-#!/usr/bin/env sh
-
-echo -e "
 \e[0;36m╭───────────────────────────────────────────────────────╮
 \e[0;36m│                                                       │
-\e[0;36m│\e[0m           \e[0;36m\e[1mBryan Jenks / TallGuyJenks\e[0m                  \e[0;36m│
+\e[0;36m│\e[0m           \e[1;36mBryan Jenks / TallGuyJenks\e[0m                  \e[0;36m│
 \e[0;36m│                                                       │
 \e[0;36m│\e[0m     \e[4m\e[1mEmail:\e[0m  \e[0;35mbryanjenks@protonmail.com\e[0m                 \e[0;36m│
 \e[0;36m│\e[0m       \e[4m\e[1mWeb:\e[0m  \e[2mhttps://www.\e[0m\e[0;36mbryanjenks.xyz                \e[0;36m│
@@ -17,4 +14,4 @@ echo -e "
 \e[0;36m│                                                       │
 \e[0;36m│\e[0m      \e[4m\e[1mCard:\e[0m  \e[0;33mcurl -sL bit.ly/2zvxUbd                   \e[0;36m│
 \e[0;36m│                                                       │
-\e[0;36m╰───────────────────────────────────────────────────────╯"
+\e[0;36m╰───────────────────────────────────────────────────────╯
