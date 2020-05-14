@@ -5,14 +5,8 @@ My curl-able business card
 <img src="/img/demo.png">
 </center>
 
-run this command to see the text output before executing the command:
+Run this command to see my business card:
 
 ```sh
-curl -sL bit.ly/2zvxUbd
-```
-
-to see the intended view execute the command:
-
-```sh
-curl -sL bit.ly/2zvxUbd | sh
+curl -sL bit.ly/2AtVaXR
 ```
