@@ -4,7 +4,7 @@
 
 ### A curl-able business card
 
-![curl output](img/demo.png)
+![curl output](screenshot.png)
 
 </div>
 
