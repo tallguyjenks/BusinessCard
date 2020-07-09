@@ -1,8 +1,8 @@
+<div align="center">
+  
 # A cURLable business card
 
 > “If it’s not cURLable, it’s not on the web.” - Vint Cerf
-
-<div align="center">
 
 ![curl output](screenshot.png)
 
@@ -23,3 +23,4 @@ Contributions are always welcome!
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This program is released under the MIT license, which you can find in the file [LICENSE](LICENSE).
