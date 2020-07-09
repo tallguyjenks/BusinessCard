@@ -1,12 +1,25 @@
-# BusinessCard
-My curl-able business card
+<div align="center">
+  
+# A cURLable business card
 
-<center>
-<img src="/img/demo.png">
-</center>
+> “If it’s not cURLable, it’s not on the web.” - Vint Cerf
 
-Run this command to see my business card:
+![curl output](screenshot.png)
 
-```sh
+</div>
+
+---
+
+## Usage
+
+```bash
 curl -sL bit.ly/2AtVaXR
 ```
+
+## Contribute
+
+Contributions are always welcome!
+
+## License
+
+This program is released under the MIT license, which you can find in the file [LICENSE](LICENSE).
