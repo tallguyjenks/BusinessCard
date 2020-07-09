@@ -1,12 +1,17 @@
-# BusinessCard
-My curl-able business card
+<div align="center">
 
-<center>
-<img src="/img/demo.png">
-</center>
+# Business card
 
-Run this command to see my business card:
+### A curl-able business card
 
-```sh
+![curl output](img/demo.png)
+
+</div>
+
+### Usage
+
+---
+
+```bash
 curl -sL bit.ly/2AtVaXR
 ```
