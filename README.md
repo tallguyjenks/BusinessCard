@@ -1,10 +1,10 @@
 <div align="center">
-  
+
 # A cURLable business card
 
 > “If it’s not cURLable, it’s not on the web.” - Vint Cerf
 
-![curl output](screenshot.png)
+![curl output](Screenshot.png)
 
 </div>
 
