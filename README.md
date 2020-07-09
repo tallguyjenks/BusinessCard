@@ -1,16 +1,16 @@
 <div align="center">
 
-# Business card
+# A cURLable business card
 
-### A curl-able business card
+> “If it’s not cURLable, it’s not on the web.” - Vint Cerf
 
 ![curl output](screenshot.png)
 
 </div>
 
-### Usage
-
 ---
+
+### Usage:
 
 ```bash
 curl -sL bit.ly/2AtVaXR
