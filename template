@@ -1,25 +1,10 @@
 #!/usr/bin/env bash
-#
-# Bitly = https://raw.githubusercontent.com/tallguyjenks/BusinessCard/master/business_card
-#
-# Write a nice business card on the terminal.
-# ╭───────────────────────────────────────────────────────╮
-# │                                                       │
-# │           Michael Tsouchlarakis / michaeltd           │
-# │                                                       │
-# │      Work:  tsouchlarakis@gmail.com                   │
-# │      FOSS:  Gentoo Linux avocado.                     │
-# │                                                       │
-# │   Twitter:  https://twitter.com/tsouchlarakismd       │
-# │       npm:  https://npmjs.com/~michaeltd              │
-# │    GitHub:  https://github.com/michaeltd              │
-# │  LinkedIn:  https://linkedin.com/in/michaeltd         │
-# │       Web:  https://michaeltd.netlify.com/            │
-# │                                                       │
-# │      Card:  curl -sL https://tinyurl.com/mtd-card|sh  │
-# │                                                       │
-# ╰───────────────────────────────────────────────────────╯
-# Font attributes, colors, bg colors
+
+# bitly = https://raw.githubusercontent.com/vladdoster/curl-about-me/master/business_card
+
+######################################
+# Font attributes, colors, bg colors #
+######################################
 reset="$(tput sgr0)"
 bold="$(tput bold)"
 dim="$(tput dim)"
